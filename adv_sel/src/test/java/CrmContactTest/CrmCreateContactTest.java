@@ -13,10 +13,10 @@ import objectRepositoryUtility.HomePage;
 import objectRepositoryUtility.OrganizationInfoPage;
 import objectRepositoryUtility.OrganizationPage;
 
-public class CrmCreateContact extends BaseClass {
+public class CrmCreateContactTest extends BaseClass {
 
 	@Test(groups = "smokeTest")
-	public void crmCreateContact() throws Throwable {
+	public void crmCreateContactTest() throws Throwable {
 
 		int rnum = jlib.getRandomNumber();
 
@@ -41,7 +41,7 @@ public class CrmCreateContact extends BaseClass {
 	}
 
 	@Test(groups = "regressionTest")
-	public void createContactWithOrg() throws Throwable {
+	public void createContactWithOrgTest() throws Throwable {
 
 		int rnum = jlib.getRandomNumber();
 
@@ -94,7 +94,7 @@ public class CrmCreateContact extends BaseClass {
 	}
 	
 	@Test(groups = {"smoke","regressionTest"})
-	public void createContactWithSupportDate() throws Throwable {
+	public void createContactWithSupportDateTest() throws Throwable {
 
 		int rnum = jlib.getRandomNumber();
 
