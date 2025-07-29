@@ -21,4 +21,11 @@ public class Sample extends BaseClass {
 		System.out.println("-- fali --");
 		
 	}
+	@Test
+	public void demo3()
+	{
+		Assert.fail();
+		System.out.println("-- fail --");
+		
+	}
 }
